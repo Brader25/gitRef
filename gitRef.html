@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--gitRef.html git cheat sheet for week 2 assignment for advanced web development
+Bradley Erickson ericksob1@csp.edu
+7/10/16 Brad added CSS and HTML for git cheat sheet-->
+    <title>Brad's Git Cheat Sheet</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 80%;
+        }
+       th, td {
+            border-bottom: 1px solid;
+        }
+        tr, td {
+            padding-left: 10px;
+            height: 25px;
+        }
+        tr:nth-child(even) {
+            background-color: #e6fff2;
+        }
+        th {
+            background-color: #e6f2ff;
+            height: 50px
+        }
+        a {
+            padding-left: 195px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Brads Git Cheat Sheet</h1>
+    <table align="center">
+<tr>
+    <th>Action</th>
+    <th>Command</th>
+</tr>
+<tr>
+    <td>Change current file</td>
+    <td>cd (file you would like to use)</td>  
+</tr>
+<tr>
+    <td>Change directory to your root file</td>
+    <td>cd /</td>   
+</tr>
+<tr>
+    <td>Move up a level from your current directory</td>
+    <td>cd ..</td>
+</tr>
+<tr>
+    <td>Show all files in the current directory</td>
+    <td>ls</td>
+</tr>
+<tr>
+     <td>View files that are hidden in current directory</td>
+    <td>ls -a</td>
+</tr>
+<tr>
+    <td>Initialize a stand-alone, local Git repository</td>
+    <td>git init</td>
+</tr>
+<tr>
+    <td>Initialize a local Git repository from a GitHub repository</td>
+    <td>git clone "Url from repository"</td>
+</tr>
+<tr>
+    <td>Get the most recent code from GitHub</td>
+    <td>git pull "Url to repository"</td>    
+</tr>
+<tr>
+    <td>Stage changed files that you want to be commited</td>
+    <td>git add .</td>    
+</tr>
+<tr>  
+    <td>Commit the changes to your file.</td>
+    <td>git commit -m "(your commit message here)"</td> 
+</tr>
+<tr>
+    <td>Check the status of the repository</td>
+    <td>git status</td>
+</tr>
+<tr>
+    <td>Save your changes to a repository out on GitHub</td>
+    <td>git push</td>
+</tr>
+<tr>
+    <td>View a list of all the commits in a repository</td>
+    <td>git log</td>
+</tr>
+<tr>
+    <td>Make a temporary branch from the master repository</td>
+    <td>git checkout -b (branch name)</td>
+</tr>
+<tr>
+    <td>Merge branch into master</td>
+    <td>git checkout master; git merge (branch nmae)</td>
+</tr>
+    </table>
+
+<a href="https://github.com/Brader25/gitRef">Link to gitRef repository.</a>
+</body>
+
+</html>
